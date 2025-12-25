@@ -20,3 +20,4 @@ Thumbs.db
 # --- IDEs (Optional but recommended) ---
 .vscode/
 .idea/
+Ops-Infra/tf-key2.pem
