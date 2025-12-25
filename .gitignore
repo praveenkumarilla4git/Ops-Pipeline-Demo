@@ -1,6 +1,22 @@
-.terraform/
+# --- Security / Keys (CRITICAL) ---
+*.pem
+*.key
+id_rsa
+*.pub
+
+# --- Terraform ---
+# Exclude .terraform directory in root and all subdirectories
+**/.terraform/
+
+# Exclude state files anywhere in the project
 *.tfstate
 *.tfstate.backup
-**/.terraform/*
-**/terraform.tfstate
-Ops-Infra/.terraform/
+*.tfvars
+
+# --- General/OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs (Optional but recommended) ---
+.vscode/
+.idea/
